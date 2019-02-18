@@ -1,0 +1,44 @@
+#cabecera img{
+  width: 7%;
+}
+#navbar{
+  position: sticky;
+  top: 0px;
+}
+#navegador li a{
+  color: black;
+}
+#jumbotron{
+  margin: 0px;
+  background-image: url('http://www.capitan-nemo.es/wp-content/uploads/2015/10/apple_desktop-wallpaper-1920x1080.jpg');
+}
+.headerSection{
+  background-color: #262626;
+  text-align: center;
+}
+.headerSection h2{
+  color: white;
+}
+.producto-img{
+  border: 0.0px solid black;
+  border-radius: 100%;
+  width: 255px;
+}
+.producto{
+  width: 30%;
+  text-align: center;
+  margin: 2%;
+}
+.productos{
+  padding-left: 10%;
+  background-color: #f2f2f2;
+}
+footer{
+  background-color: #383838;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 0px;
+  padding: 5%;
+  font-size: 25px;
+}
