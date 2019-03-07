@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Tienda Matias</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script type="text/javascript" src="./js/bootstrap.min.js">
+
+  </script>
+</head>
+<body>
+  <div class="content">
+    <div class="row">
+      <div class="col-sm" id="cabecera">
+        <center>
+          <img src="img/logo.PNG" alt="logotipo">
+        </center>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <div class="content">
+    <div class="row" id="navbar">
+      <div class="col-sm" id="cabecera">
+        <ul class="nav justify-content-center" id="navegador">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CATEGORÍAS v</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OFERTAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NOTICIAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="jumbotron jumbotron-fluid" id="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Contacta con nosotros</h1>
+      <p class="lead">Rellenando este formulario, podras contactar con nostros de una manera rápida y sencilla</p>
+    </div>
+  </div>
+  <div class="content headerSection">
+    <div class="row">
+      <div class="col-sm">
+        <h2 class="display-4">Contacta con nosotros</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltip01">Nombre</label>
+              <input type="text" class="form-control" id="validationTooltip01" placeholder="Nombre" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltip02">Apellidos</label>
+              <input type="text" class="form-control" id="validationTooltip02" placeholder="Apellidos" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltipUsername">Correo electrónico</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Correo electrónico" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Elige un correo válido.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip03">Ciudad</label>
+              <input type="text" class="form-control" id="validationTooltip03" placeholder="Ciudad" required>
+              <div class="invalid-tooltip">
+                Elige una ciudad correcta.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip04">Provincia</label>
+              <input type="text" class="form-control" id="validationTooltip04" placeholder="Provincia" required>
+              <div class="invalid-tooltip">
+                Elige una provincia correcta.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip05">Código postal</label>
+              <input type="text" class="form-control" id="validationTooltip05" placeholder="Código postal" required>
+              <div class="invalid-tooltip">
+                Elige un código postal correcto.
+              </div>
+            </div>
+          </div>
+          <label for="exampleFormControlTextarea1">Pon aquí tu comentario</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+          <button class="btn btn-primary" type="submit">Enviar formulario</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Desarrollado por Juanes Roig, Christian Calvo y Ginés Carmona</p>
+  </footer>
+</body>
+</html>
